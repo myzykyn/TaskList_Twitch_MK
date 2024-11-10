@@ -1,6 +1,5 @@
 # Twitch Chatbot Multitask Task List Overlay
 
-<img src="./images/live-sample.png">
 <br >
 <img src="./images/customize-sample.png">
 
@@ -86,8 +85,8 @@ When you are done, it should look something like this:
 
 ```js
 twitch_oauth = "oauth:138kjl2a0r3dpaf93asdf",
-twitch_channel = "jujococs",
-twitch_username = "jujococs",
+twitch_channel = "myzykyn",
+twitch_username = "myzykyn",
 ```
 
 ### Behavior Settings
@@ -229,7 +228,7 @@ The following settings are for styling the TaskList. Default values are provided
 
 -   `!clearuser` - Remove all tasks from a User (case sensitive username)
 
-    -   example: `!clearuser JujocoCS`
+    -   example: `!clearuser MyzyKynz`
 
 ## Aliases
 
@@ -291,6 +290,3 @@ The following settings are for styling the TaskList. Default values are provided
 -   `!クレジット` (Japanese)
 -   `!кредит` (Ukrainian)
 
-## Credits
-
-**Author:** [**@JujocoCS**](https://twitch.tv/JujocoCS)
