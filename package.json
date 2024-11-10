@@ -1,0 +1,38 @@
+{
+	"name": "twitch-multitask-task-list-overlay",
+	"version": "1.0.0",
+	"description": "Interactive multitask task list overlay for streamer",
+	"author": "Jujoco",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/jujoco/twitch-multitask-task-list-overlay.git"
+	},
+	"keywords": [
+		"twitch overlay",
+		"chatbot",
+		"multitask task list",
+		"twitch",
+		"streamer"
+	],
+	"engines": {
+		"node": ">=20.0.0",
+		"npm": ">=10.0.0",
+		"pnpm": ">=8.0.0"
+	},
+	"type": "module",
+	"main": "./src/index.js",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"build:watch": "vite build --watch",
+		"test": "vitest",
+		"test:coverage": "vitest --coverage"
+	},
+	"devDependencies": {
+		"@vitest/coverage-v8": "^2.0.5",
+		"jsdom": "^24.1.1",
+		"vite": "^5.4.1",
+		"vitest": "^2.0.5"
+	}
+}

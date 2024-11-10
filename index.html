@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta author="myzykyn" />
+		<meta name="description" content="A Task list for twitch chat" />
+		<link
+			rel="icon"
+			type="image/png"
+			href="https://github.githubassets.com/favicons/favicon-dark.png"
+		/>
+		<link rel="stylesheet" type="text/css" href="./styles/index.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+		<script defer src="./configs.js"></script>
+		<script defer src="./dist/taskBot.iife.js"></script>
+		<title>Multi Task List</title>
+	</head>
+
+	<body>
+		<main id="app">
+			<div class="header">
+				<div class="header-features">
+					<div class="timer hidden">
+						<span
+							class="timer-title transition-opacity duration-600"
+							>Break</span
+						>
+						<span
+							class="timer-countdown transition-opacity duration-600"
+							>00:00</span
+						>
+					</div>
+
+					<div class="command-tips hidden">
+						<spans
+							class="command-code transition-opacity duration-600"
+							>!help</spans
+						>
+					</div>
+
+					<div class="custom-header hidden">
+						<span class="custom-text">Custom Header Text</span>
+					</div>
+
+					<div class="task-title">
+						<span class="task-title">tasks</span>
+						<span class="task-count">0/0</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="task-wrapper">
+				<div class="task-container primary">
+					<!-- TASK TEMPLATE START --
+
+					<div class="card" data-user="Username23" >
+						<div class="username">Username23</div>
+						<ol class="tasks">
+							<li class="task done" data-task-id="1234">cooking food</li>
+							<li class="task" data-task-id="6789">wash clothes</li>
+						</ol>
+					</div> 
+
+				 	-- TASK TEMPLATE END -->
+				</div>
+				<div class="task-container secondary"></div>
+			</div>
+			<audio id="audioSample" src="./media/breakTime.mp3"></audio>
+		</main>
+	</body>
+</html>
